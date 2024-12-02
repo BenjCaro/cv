@@ -11,9 +11,3 @@
         object-fit: cover;
         border-radius: 50%;
 }
-
-/*-------  Separation des blocs provisoire  -------------------*/
-
-header, main, section {
-    border-bottom: 1px solid black;
-}
