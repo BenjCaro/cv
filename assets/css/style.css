@@ -15,6 +15,7 @@
 
 body {
     background-color: #f5f5f5;
+    margin: 0;
 }
 
 .container {
@@ -43,6 +44,10 @@ header, footer {
         border: 5px solid #ffffff;
 }
 
+.en--tete__photo--profil img:hover {
+    cursor: zoom-in;
+}
+
 .en--tete {
     display: flex;
     justify-content: space-evenly;
@@ -58,28 +63,51 @@ header, footer {
 .en--tete__coordonnees {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     text-align: left;
+    
 } 
 
 .en--tete__nom {
-    
+    margin-bottom: 0px;
+    font-family: "Lato";
     font-size: 3em;
+    cursor: default;
 }
 
 .en--tete__poste {
-   
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-family: "Lato";
     font-size: 2em;
+    cursor: default;
 }
 
-/* .coordonnees__info--1 {
-       
+.coordonnees__item--1, .coordonnees__item--2  {
+    font-family: "Raleway";
 }
 
-.coordonnees__info--2 {
-    
-} */
+.coordonnees__item--1 {
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
 
-/*---------------------------------------*/
+.coordonnees__item--2 {
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.coordonnees__lien {
+    color: white;
+    text-decoration: none;
+    margin-left: 0.25em;
+}
+.coordonnees__icon--voiture {
+    margin-left: 9px;
+    cursor: default;
+}
+
+
 
 .parcours {
     background-color: #ffffff;
