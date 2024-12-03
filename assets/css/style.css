@@ -109,6 +109,62 @@ header, footer {
 
 /*-----------    Main ---------------*/
 
+.contenu--principal {
+    display: flex;
+}
+
+.competences {
+    flex: 1;
+    padding: 2em;
+    
+}
+
+.competences--titre {
+    font-family: "Lato";
+    color:#17abb3;
+    border-bottom: 1px solid grey;
+    /*  couleur du trait à changer  */
+    padding-bottom: 0.25em;
+}
+
+.logiciel--item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25em;
+    font-family: "Lato";
+    font-weight: bold;
+}
+
+.etoiles {
+    color: #17abb3;
+}
+
+.langues--item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25em;
+    font-family: "Lato";
+    font-weight: bold;
+}
+
+.langues--niveau {
+    font-weight: initial;
+}
+
+.qualites--list {
+    padding-left: 1em;
+    font-family: "Lato";
+    
+}
+
+.hobbies--list {
+    padding-left: 1em;
+    font-family: "Lato";
+}
+
+
 .parcours {
+    flex: 3;
     background-color: #ffffff;
+    padding: 2em;
 }
