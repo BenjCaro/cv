@@ -57,7 +57,7 @@ header, footer {
 
 .en--tete__information {
     text-align: center;
-/*display: flex;*/
+    margin-top: 1em;
 }
 
 .en--tete__coordonnees {
@@ -107,7 +107,7 @@ header, footer {
     cursor: default;
 }
 
-
+/*-----------    Main ---------------*/
 
 .parcours {
     background-color: #ffffff;
