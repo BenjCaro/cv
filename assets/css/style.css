@@ -14,14 +14,14 @@
 }
 
 body {
-    background-color: #f5f5f5;
     margin: 0;
+    background-color: #f5f5f5;
 }
 
 .container {
     width: 1160px;
     margin: auto;
-    background-color: #e3e3e3;
+    
 }
 
 header, footer {
@@ -116,14 +116,15 @@ header, footer {
 .competences {
     flex: 1;
     padding: 2em;
+    background-color: rgba(227, 227, 227, 0.2);
+    
     
 }
 
 .competences--titre {
     font-family: "Lato";
     color:#17abb3;
-    border-bottom: 1px solid grey;
-    /*  couleur du trait à changer  */
+    border-bottom: 1px solid #e3e3e3;
     padding-bottom: 0.25em;
 }
 
@@ -151,16 +152,34 @@ header, footer {
     font-weight: initial;
 }
 
-.qualites--list {
+ .qualites--list {
     padding-left: 1em;
     font-family: "Lato";
-    
-}
+    list-style: none;
+} 
+
+ .qualites--items::before {
+    content: "■";
+    color:#17abb3;
+    position: relative;
+    bottom: 2px;
+    right: 15px;
+} 
 
 .hobbies--list {
     padding-left: 1em;
     font-family: "Lato";
+    list-style: none;
 }
+
+.hobbies--items::before {
+    content: "■";
+    color:#17abb3;
+    position: relative;
+    bottom: 2px;
+    right: 15px;
+}
+
 
 
 .parcours {
