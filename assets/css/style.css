@@ -32,8 +32,8 @@ header, footer {
 /*------------ header --------------*/
 
 .en--tete__photo--profil {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
 }
 
 .en--tete__photo--profil img {
@@ -108,7 +108,7 @@ header, footer {
 }
 
 /*-----------    Main ---------------*/
-
+/*------ Partie Gauche ---------------*/
 .contenu--principal {
     display: flex;
 }
@@ -117,8 +117,6 @@ header, footer {
     flex: 1;
     padding: 2em;
     background-color: rgba(227, 227, 227, 0.2);
-    
-    
 }
 
 .competences--titre {
@@ -128,22 +126,34 @@ header, footer {
     padding-bottom: 0.25em;
 }
 
+.competences--logiciels, .competences--langues, .competences--qualites, 
+.competences--hobbies {
+    padding-bottom: 1em;;
+}
+
 .logiciel--item {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.25em;
+    padding-bottom: 0.5em;
     font-family: "Lato";
     font-weight: bold;
 }
 
 .etoiles {
     color: #17abb3;
+    font-size: 0.85em;
+}
+
+.etoiles i {
+    padding-left: 0.25em;
 }
 
 .langues--item {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.25em;
+    padding-bottom: 0.5em;
     font-family: "Lato";
     font-weight: bold;
 }
@@ -180,6 +190,7 @@ header, footer {
     right: 15px;
 }
 
+/*----- Partie Droite ---------*/
 
 
 .parcours {
