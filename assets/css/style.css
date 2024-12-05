@@ -34,6 +34,9 @@ header, footer {
 .en--tete__photo--profil {
     width: 125px;
     height: 125px;
+    position: relative;
+    right: 100px;
+
 }
 
 .en--tete__photo--profil img {
@@ -121,6 +124,7 @@ header, footer {
 
 .competences--titre {
     font-family: "Lato";
+    font-weight: 400;
     color:#17abb3;
     border-bottom: 1px solid #e3e3e3;
     padding-bottom: 0.25em;
@@ -197,4 +201,62 @@ header, footer {
     flex: 3;
     background-color: #ffffff;
     padding: 2em;
+}
+
+.parcours__titre {
+    font-family: "Lato";
+    font-weight: 400;
+    color:#17abb3;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 0.25em;
+}
+
+.parcours__paragraphe, .parcours__paragraphe--2 {
+    margin-bottom: 0;
+    font-family: "Raleway";
+    font-size: 0.9em;
+    text-indent: 16px;
+    text-align: justify;
+}
+
+.parcours__paragraphe--2 {
+    margin-top:0;
+    
+}
+
+.parcours h3 {
+    font-family: "Lato";
+    font-weight: normal;
+    font-size: 1em;
+    margin: 0;
+}
+
+.parcours h4 {
+    margin: 0;
+    font-family: "Lato";
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: 0.85em;
+}
+
+.parcours__duree {
+    color:#17abb3;
+    font-family: "Raleway";
+}
+
+.parcours__bloc {
+    margin-bottom: 1em;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+
+.parcours__bloc:hover {
+    cursor: default;
+    border-left: 5px solid #17abb3;
+    background-color: #e3e3e3;
+    padding: 0.5em;
+    
 }
