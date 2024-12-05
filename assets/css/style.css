@@ -121,6 +121,7 @@ header, footer {
 
 .competences--titre {
     font-family: "Lato";
+    font-weight: 400;
     color:#17abb3;
     border-bottom: 1px solid #e3e3e3;
     padding-bottom: 0.25em;
@@ -197,4 +198,43 @@ header, footer {
     flex: 3;
     background-color: #ffffff;
     padding: 2em;
+}
+
+.parcours__titre {
+    font-family: "Lato";
+    font-weight: 400;
+    color:#17abb3;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 0.25em;
+}
+
+.parcours__paragraphe, .parcours__paragraphe--2 {
+    margin-bottom: 0;
+    font-family: "Raleway";
+    font-size: 0.90em;
+    text-indent: 16px;
+    text-align: justify;
+}
+
+.parcours__paragraphe--2 {
+    margin-top:0;
+}
+
+.parcours h3 {
+    font-family: "Lato";
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.parcours h4 {
+    margin-top: 0;
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 0.9em;
+}
+
+.parcours__duree {
+    color:#17abb3;
+    font-family: "Raleway";
 }
