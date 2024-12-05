@@ -260,3 +260,34 @@ header, footer {
     padding: 0.5em;
     
 }
+
+/*---------- Footer ----------------*/
+
+.pied--de--page__bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pied--de--page__icon {
+    padding-top: 1em;
+    padding-bottom: 0.75em;
+}
+
+.pied--de--page__icon i {
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    color: #ffffff;
+}
+
+.pied--de--page__icon i:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.pied--de--page__maj {
+    font-family: "Lato";
+    font-style: italic;
+    padding-bottom: 1em;
+    
+}
