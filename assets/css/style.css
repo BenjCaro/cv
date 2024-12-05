@@ -214,27 +214,29 @@ header, footer {
 .parcours__paragraphe, .parcours__paragraphe--2 {
     margin-bottom: 0;
     font-family: "Raleway";
-    font-size: 0.90em;
+    font-size: 0.9em;
     text-indent: 16px;
     text-align: justify;
 }
 
 .parcours__paragraphe--2 {
     margin-top:0;
+    
 }
 
 .parcours h3 {
     font-family: "Lato";
     font-weight: normal;
+    font-size: 1em;
     margin: 0;
 }
 
 .parcours h4 {
     margin: 0;
     font-family: "Lato";
-    font-style: italic;
+    font-style: oblique;
     font-weight: lighter;
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 
 .parcours__duree {
