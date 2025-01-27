@@ -295,40 +295,6 @@ header, footer {
     
 }
 
-/* @media screen and (min-width: 768px) and (max-width: 1024px){ 
-    
-    
-    
-    .contenu--principal {
-        display: flex;
-    }
 
 
-} */
 
-
-@media screen and (max-width: 768px) {
-
-
-    body {
-        font-size: 30px;
-    }
-
-    .en--tete__photo--profil {
-        display: none;
-    }
-    
-    .contenu--principal {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-
-    .competences--logiciels, .competences--langues, .competences--qualites, .competences--hobbies {
-
-        padding: 0;
-    }
-    .etoiles {
-        font-size: 25px;
-    }
-}
