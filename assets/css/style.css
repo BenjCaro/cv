@@ -295,6 +295,121 @@ header, footer {
     
 }
 
+/* Media pour mobile */
+
+@media  screen and (max-width: 768px) {
+
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        
+        
+    }
+
+    .contenu--principal {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .en--tete {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .en--tete__photo--profil, .en--tete__photo--profil img {
+        display: none;
+    }
+
+    .en--tete__information {
+
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .en--tete__nom {
+        font-size: 32px;
+    }
+
+    .en--tete__poste {
+        font-size: 24px;
+    }
+
+    .en--tete__coordonnees {
+        display: flex;
+        flex-direction: column;
+    }
+
+  /* Partie Parcours */  
+
+  .parcours__bloc {
+
+    display: block;
+
+  }
+
+
+}
+
+
+@media  screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .container {
+        width: 100%;
+        max-width: 100%;
+        
+        
+    }
+
+    .contenu--principal {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .en--tete {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .en--tete__photo--profil, .en--tete__photo--profil img {
+        display: none;
+    }
+
+    .en--tete__information {
+
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .en--tete__nom {
+        font-size: 32px;
+    }
+
+    .en--tete__poste {
+        font-size: 24px;
+    }
+
+    .en--tete__coordonnees {
+        display: flex;
+        
+    }
+
+    .coordonnees__info {
+        margin: 0 16px;
+    }
+
+  /* Partie Parcours */  
+
+  
 
 
 
+}
